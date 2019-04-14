@@ -1,11 +1,11 @@
 {
   "nativescript": {
     "id": "org.nativescript.foldinglvdemo",
-    "tns-android": {
-      "version": "4.2.0"
-    },
     "tns-ios": {
       "version": "4.2.0"
+    },
+    "tns-android": {
+      "version": "5.3.0-2019-03-19-143503-02"
     }
   },
   "main": "app.js",
@@ -15,11 +15,11 @@
   "dependencies": {
     "nativescript-folding-list-view": "file:../bin/dist",
     "nativescript-theme-core": "~1.0.4",
-    "tns-core-modules": "~4.2.0"
+    "tns-core-modules": "5.4.0-androidx-2019-03-22-160602-06"
   },
   "devDependencies": {
-    "nativescript-dev-typescript": "~0.7.0",
-    "nativescript-dev-webpack": "^0.16.0",
+    "nativescript-dev-typescript": "^0.9.0",
+    "nativescript-dev-webpack": "^0.21.0",
     "typescript": "~2.7.2"
   },
   "readme": "NativeScript Application"
